@@ -5,11 +5,14 @@ Talk through each section with your partner. Add notes on what you discussed and
 ## Accessibility Needs
 *What does each team member need access to in order to succeed and show up the best they can?*
 
+#Priscilla - 
+
 ## Collaboration vs. Individual Work Expectations
 *Clarify your collaboration expectations - does your group want to write code together all of the time? Or divide work to do independently, then come together to share accomplishments? What tools and technologies can help your collaboration?*
 
 ## Learning Style
 *How does each team member learn best in project settings?*
+Nadia: I like to take a few minutes to think through a problem before discussing.
 
 ## Preferred Feedback Style
 *How does each team member best receive feedback?*
@@ -21,5 +24,5 @@ Talk through each section with your partner. Add notes on what you discussed and
 *Other co-working agreements that were not captured in the above sections.*
 
 ## Signatures
-______________ _______________
-Date: _________
+______________ ____Mengqiao Han_________________Xin Li
+Date: NOv 10 2025
