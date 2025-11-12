@@ -39,6 +39,7 @@ footer {
   flex: 1;                 /* Fill the available space */
   gap: 8px;                /* Space between nav and main */
   min-height: 0;           /* Prevent overflow issues */
+  
 }
 
 /* Sidebar (nav) */
