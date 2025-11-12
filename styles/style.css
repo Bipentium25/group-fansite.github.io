@@ -4,35 +4,21 @@
     grid-template-rows: auto;
 }
 
-.header {
+header {
   background-color: #d55e00;
   grid-column: 20% / span 2;
 }
 
-.nav {
+nav {
   background-color: #f0e442;
   grid-row: 20% / span 2;
   grid-column: 20%;
 }
 
-.footer {
-  background-color: #009e73;
-  grid-column: auto / span 2;
-}
-:root { --footer-h: 56px; }
-
-html, body { height: 100%; }
 body { 
     margin: 0;
     padding: 0 40px var(--footer-h);   
     background-color: #eaeec9;
-}
-
-main {
-    /* flex: 1;   */
-    /* background-color: white; */
-
-
 }
 
 h1, h2 {
