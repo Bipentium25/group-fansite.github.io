@@ -1,0 +1,81 @@
+@import url('https://fonts.cdnfonts.com/css/shrek-3');
+
+:root {
+  --footer-h: 60px;
+}
+
+body {
+  margin: 0;
+  padding: 0 40px var(--footer-h);
+  background-color: #121212;
+  font-size: 1.2em;
+  font-family: 'Shrek', cursive;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column; /* Stack header, content, and footer vertically */
+}
+
+/* Header and Footer stay fixed on top/bottom */
+header {
+  background: #d4630c;
+  padding: 1rem;
+  text-align: center;
+  font-size: 150%;
+  color: #337800;
+}
+
+footer {
+  background: #8cb04e;
+  padding: 1em;
+  text-align: center;
+  font-size: 14px;
+  color: #502c09;
+}
+
+/* Main layout area (nav + main) */
+.content {
+  display: flex;           /* Create horizontal layout */
+  flex: 1;                 /* Fill the available space */
+  gap: 8px;                /* Space between nav and main */
+  min-height: 0;           /* Prevent overflow issues */
+  
+}
+
+/* Sidebar (nav) */
+nav {
+  flex: 0 0 200px;         /* Fixed width for sidebar */
+  background: #7a9244;
+  padding: 10%;
+  text-align: center;
+}
+
+/* Main content */
+main {
+  flex: 1;                 /* Take remaining width */
+  background: #e1dfb6;
+  padding: 1em;
+  overflow: auto;
+  text-align: center;
+}
+
+/* Typography and links */
+ul {
+  list-style: none;
+  padding: 1em;
+  color: orange;
+  line-height: 250%;
+}
+
+a:link {
+  color: #ff5900;
+}
+a:visited {
+  color: #c5ee7d;
+}
+a:active {
+  color: #5c452d;
+}
+a:hover {
+  color: #d55e00;
+}

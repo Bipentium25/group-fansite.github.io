@@ -1,0 +1,15 @@
+img {
+    width: 338px;
+    aspect-ratio: auto 338 / 434;
+    height: 434px;    
+    
+    
+
+}
+
+li {
+    display:inline-block;
+    text-align: center;
+    margin: 10px;  
+}
+
