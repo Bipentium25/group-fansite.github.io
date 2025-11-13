@@ -1,130 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="../styles/characters.css" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.cdnfonts.com/css/shrek-3" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-  <link href="../styles/style.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <link href="../styles/style.css" rel="stylesheet" />
+  <link href="../styles/characters.css" rel="stylesheet" />
+
   <title>Characters</title>
 </head>
-<body class="page-characters">  
+<body class="page-characters">
   <header>
     <h1>Characters</h1>
   </header>
+
   <div class="content">
     <nav>
       <ul>
         <li><a href="../index.html">Home</a></li>
         <li><a href="facts.html">Facts</a></li>
         <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="characters.html">Characters</a></li>
       </ul>
     </nav>
-  <main class="content">
-  <section class="characters-gallery">
-    <!-- SHREK -->
-    <figure class="char-card flip-card">
-      <input type="checkbox" id="flip-shrek" class="flip-toggle">
-      <label class="flip-inner" for="flip-shrek">
-        <div class="flip-face flip-front">
-          <div class="media">
-            <img src="../assets/images/shrek.png" alt="Shrek">
-          </div>
-          <figcaption class="card-caption">Shrek</figcaption>
-        </div>
-        <div class="flip-face flip-back">
-          <p>Big-hearted ogre who values privacy but always shows up for friends.</p>
-        </div>
-      </label>
-    </figure>
 
-    <!-- FIONA -->
-    <figure class="char-card flip-card">
-      <input type="checkbox" id="flip-fiona" class="flip-toggle">
-      <label class="flip-inner" for="flip-fiona">
-        <div class="flip-face flip-front">
-          <div class="media">
-            <img src="../assets/images/fiona.png" alt="Fiona">
-          </div>
-          <figcaption class="card-caption">Fiona</figcaption>
-        </div>
-        <div class="flip-face flip-back">
-          <p>Warrior princess with a secret, brave, witty, and deeply loyal.</p>
-        </div>
-      </label>
-    </figure>
+    <main>
+      <section class="characters-gallery">
+        <!-- SHREK -->
+        <figure class="char-card flip-card">
+          <input type="checkbox" id="flip-shrek" class="flip-toggle" />
+          <label class="flip-inner" for="flip-shrek">
+            <div class="flip-face flip-front">
+              <div class="media">
+                <img src="../assets/images/shrek.png" alt="Shrek" />
+              </div>
+              <figcaption class="card-caption">Shrek</figcaption>
+            </div>
+            <div class="flip-face flip-back">
+              <p>A big green introvert who just wanted peace and quiet… until friendship and love crashed into his swamp.</p>
+            </div>
+          </label>
+        </figure>
 
-    <!-- DONKEY -->
-    <figure class="char-card flip-card">
-      <input type="checkbox" id="flip-donkey" class="flip-toggle">
-      <label class="flip-inner" for="flip-donkey">
-        <div class="flip-face flip-front">
-          <div class="media">
-            <img src="../assets/images/donkey1.png" alt="Donkey">
-          </div>
-          <figcaption class="card-caption">Donkey</figcaption>
-        </div>
-        <div class="flip-face flip-back">
-          <p>Endlessly chatty, fearless friend whose optimism saves the day.</p>
-        </div>
-      </label>
-    </figure>
+        <!-- FIONA -->
+        <figure class="char-card flip-card">
+          <input type="checkbox" id="flip-fiona" class="flip-toggle" />
+          <label class="flip-inner" for="flip-fiona">
+            <div class="flip-face flip-front">
+              <div class="media">
+                <img src="../assets/images/fiona.png" alt="Fiona" />
+              </div>
+              <figcaption class="card-caption">Fiona</figcaption>
+            </div>
+            <div class="flip-face flip-back">
+              <p>A princess who doesn’t wait to be rescued — she does the rescuing, and kicks bad guys while she’s at it.</p>
+            </div>
+          </label>
+        </figure>
 
-    <!-- PUSS IN BOOTS -->
-    <figure class="char-card flip-card">
-      <input type="checkbox" id="flip-puss" class="flip-toggle">
-      <label class="flip-inner" for="flip-puss">
-        <div class="flip-face flip-front">
-          <div class="media">
-            <img src="../assets/images/puss2.png" alt="Puss in Boots">
-          </div>
-          <figcaption class="card-caption">Puss in Boots</figcaption>
-        </div>
-        <div class="flip-face flip-back">
-          <p>Charming swashbuckler: sword, boots, and devastating cute eyes.</p>
-        </div>
-      </label>
-    </figure>
+        <!-- DONKEY -->
+        <figure class="char-card flip-card">
+          <input type="checkbox" id="flip-donkey" class="flip-toggle" />
+          <label class="flip-inner" for="flip-donkey">
+            <div class="flip-face flip-front">
+              <div class="media">
+                <img src="../assets/images/donkey1.png" alt="Donkey" />
+              </div>
+              <figcaption class="card-caption">Donkey</figcaption>
+            </div>
+            <div class="flip-face flip-back">
+              <p>The most talkative donkey in the kingdom. Loud, loyal, and totally impossible to ignore.</p>
+            </div>
+          </label>
+        </figure>
 
-    <!-- LORD FARQUAAD -->
-    <figure class="char-card flip-card">
-      <input type="checkbox" id="flip-farquaad" class="flip-toggle">
-      <label class="flip-inner" for="flip-farquaad">
-        <div class="flip-face flip-front">
-          <div class="media">
-            <img src="../assets/images/lord-farquaad.png" alt="Lord Farquaad">
-          </div>
-          <figcaption class="card-caption">Lord Farquaad</figcaption>
-        </div>
-        <div class="flip-face flip-back">
-          <p>Petty tyrant obsessed with perfection and power over Duloc.</p>
-        </div>
-      </label>
-    </figure>
+        <!-- PUSS IN BOOTS -->
+        <figure class="char-card flip-card">
+          <input type="checkbox" id="flip-puss" class="flip-toggle" />
+          <label class="flip-inner" for="flip-puss">
+            <div class="flip-face flip-front">
+              <div class="media">
+                <img src="../assets/images/puss2.png" alt="Puss in Boots" />
+              </div>
+              <figcaption class="card-caption">Puss in Boots</figcaption>
+            </div>
+            <div class="flip-face flip-back">
+              <p>Small cat, huge ego. Hat, boots, sword — and those eyes that can melt any heart.</p>
+            </div>
+          </label>
+        </figure>
 
-    <!-- DRAGON -->
-    <figure class="char-card flip-card">
-      <input type="checkbox" id="flip-dragon" class="flip-toggle">
-      <label class="flip-inner" for="flip-dragon">
-        <div class="flip-face flip-front">
-          <div class="media">
-            <img src="../assets/images/dragon.png" alt="Dragon">
-          </div>
-          <figcaption class="card-caption">Dragon</figcaption>
-        </div>
-        <div class="flip-face flip-back">
-          <p>Fire-breathing guardian with a soft spot for Donkey.</p>
-        </div>
-      </label>
-    </figure>
-  </section>
-</main>
+        <!-- LORD FARQUAAD -->
+        <figure class="char-card flip-card">
+          <input type="checkbox" id="flip-farquaad" class="flip-toggle" />
+          <label class="flip-inner" for="flip-farquaad">
+            <div class="flip-face flip-front">
+              <div class="media">
+                <img src="../assets/images/lord-farquaad.png" alt="Lord Farquaad" />
+              </div>
+              <figcaption class="card-caption">Lord Farquaad</figcaption>
+            </div>
+            <div class="flip-face flip-back">
+              <p>Short in height, tall in ego. Rules Duloc with an iron fist and a perfectly styled haircut.</p>
+            </div>
+          </label>
+        </figure>
+
+        <!-- DRAGON -->
+        <figure class="char-card flip-card">
+          <input type="checkbox" id="flip-dragon" class="flip-toggle" />
+          <label class="flip-inner" for="flip-dragon">
+            <div class="flip-face flip-front">
+              <div class="media">
+                <img src="../assets/images/dragon.png" alt="Dragon" />
+              </div>
+              <figcaption class="card-caption">Dragon</figcaption>
+            </div>
+            <div class="flip-face flip-back">
+              <p>Giant, fierce, and hopelessly romantic. Breathes fire but has a heart of gold.</p>
+            </div>
+          </label>
+        </figure>
+
+        <!-- GINGY -->
+        <figure class="char-card flip-card">
+          <input type="checkbox" id="flip-gingy" class="flip-toggle" />
+          <label class="flip-inner" for="flip-gingy">
+            <div class="flip-face flip-front">
+              <div class="media">
+                <img src="../assets/images/gingy.png" alt="Gingy" />
+              </div>
+              <figcaption class="card-caption">Gingy</figcaption>
+            </div>
+            <div class="flip-face flip-back">
+              <p>A tiny cookie with a huge attitude. Sweet, sassy, and surprisingly brave for a snack.</p>
+            </div>
+          </label>
+        </figure>
+
+        <!-- PINOCCHIO -->
+        <figure class="char-card flip-card">
+          <input type="checkbox" id="flip-pinocchio" class="flip-toggle" />
+          <label class="flip-inner" for="flip-pinocchio">
+            <div class="flip-face flip-front">
+              <div class="media">
+                <img src="../assets/images/pinocchio.png" alt="Pinocchio" />
+              </div>
+              <figcaption class="card-caption">Pinocchio</figcaption>
+            </div>
+            <div class="flip-face flip-back">
+              <p>A wooden boy with big dreams and a nose that can’t keep secrets.</p>
+            </div>
+          </label>
+        </figure>
+      </section>
+    </main>
   </div>
-<footer>
-  &copy;2025 Ada Developers Academy Cohort 24
-</footer>
+
+  <footer>
+    &copy;2025 Ada Developers Academy Cohort 24
+  </footer>
+</body>
+</html>

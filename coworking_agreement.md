@@ -15,7 +15,7 @@ Talk through each section with your partner. Add notes on what you discussed and
 (insert your answer here)
 
 # Mengqiao Han
-(insert your answer here)
+(A shared git repository and slack for communication. )
 
 ## Collaboration vs. Individual Work Expectations
 *Clarify your collaboration expectations - does your group want to write code together all of the time? Or divide work to do independently, then come together to share accomplishments? What tools and technologies can help your collaboration?*
@@ -31,7 +31,7 @@ I’m comfortable using GitHub for collaboration and Slack/Zoom for communicatio
 (insert your answer here)
 
 # Mengqiao Han
-(insert your answer here)
+(I prefer that we each work on our part seperately and then come together to share our ideas and help each other to get a uniformed result. )
 
 
 
@@ -48,7 +48,7 @@ I like to take a few minutes to think through a problem before discussing.
 (insert your answer here)
 
 # Mengqiao Han
-(insert your answer here)
+(I want to try out everything first and then help each other to solve the problems we each encounter. )
 
 ## Preferred Feedback Style
 *How does each team member best receive feedback?*
@@ -63,7 +63,7 @@ I prefer straightfoward feedback. Just be honest and direct!
 (insert your answer here)
 
 # Mengqiao Han
-(insert your answer here)
+I prefer very direct feedback. 
 
 ## One Team Communication Skill to Improve
 *What is a teamwork-related skill you want to work on?*
@@ -78,7 +78,7 @@ I'd love to practice clear comunication!
 (insert your answer here)
 
 # Mengqiao Han
-(insert your answer here)
+(I want to practice on sharing workload. Unlike previous projects where we each need to understand the whole logic, this time with the html we can each work on a separate part. )
 
 ## Optional: Other agreements
 *Other co-working agreements that were not captured in the above sections.*
