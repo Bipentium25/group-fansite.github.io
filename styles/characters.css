@@ -1,1 +1,120 @@
-/* @import url('https://fonts.cdnfonts.com/css/shrek-3'); */
+.page-characters main { 
+    padding: 0 16px 24px;
+}
+
+.characters-gallery .char-card { 
+    margin: 0; 
+}
+
+.characters-gallery {
+  padding: 0;
+  max-width: 1200px;
+  margin: 16px auto 64px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 260px);
+  gap: 20px;
+  justify-content: center;
+}
+
+/* ===== Flip card ===== */
+
+.flip-card {
+  width: 100%;                 
+  aspect-ratio: 1 / 1.15;
+  position: relative;
+  perspective: 1200px;
+
+  border: 2px solid #d7d1bd;
+  border-radius: 10px;
+  background: #efeac8;
+  box-shadow: 0 2px 8px rgba(0,0,0,.08);
+  overflow: hidden;
+  transition: box-shadow .25s ease, transform .25s ease, border-color .25s ease;
+}
+
+.flip-card:is(:hover, :focus-within) {
+  transform: translateY(-4px);
+  border-color: #d0c9ad;
+  box-shadow: 0 10px 24px rgba(0,0,0,.18);
+}
+
+.flip-card:is(:hover, :focus-within) .flip-front img {
+  transform: scale(1.03);
+}
+
+.flip-card:is(:hover, :focus-within) .card-caption {
+  color: #d4630c;
+}
+
+.flip-toggle {
+  position: absolute;
+  inline-size: 1px; block-size: 1px;
+  opacity: 0; pointer-events: none;
+}
+
+.flip-inner {
+  display: block;
+  position: relative;
+  width: 100%; height: 100%;
+  transform-style: preserve-3d;
+  transition: transform .6s ease;
+  cursor: pointer;
+}
+.flip-toggle:checked + .flip-inner { transform: rotateY(180deg); }
+
+.flip-face {
+  position: absolute; inset: 0;
+  display: flex; align-items: center; justify-content: center;
+  padding: 16px;                
+  background: transparent; border: none; box-shadow: none;
+  backface-visibility: hidden;
+  box-sizing: border-box;
+  min-height: 0;
+}
+
+.flip-front {
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto; 
+  row-gap: 6px;
+}
+
+.media {
+  height: 100%;                  
+  min-height: 0;                 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; 
+}
+
+.flip-front img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  display: block;
+  transition: transform .25s ease;
+}
+
+.card-caption {
+  margin: 0;
+  justify-self: center;
+  font-weight: 700;
+  font-size: 16px;                          
+  line-height: 1.2;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.flip-back {
+  transform: rotateY(180deg);
+  text-align: center;
+}
+.flip-back p {
+  margin: 0;
+  font: 14px/1.45 'Poppins', sans-serif;
+  color: #333;
+}
+
+@media (prefers-reduced-motion: reduce){
+  .flip-card, .flip-front img{ transition: none; }
+}

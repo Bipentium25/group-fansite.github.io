@@ -10,11 +10,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.cdnfonts.com/css/shrek-3" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-  <title>Characters Page</title>
+  <title>Characters</title>
 </head>
-<body>  
+<body class="page-characters">  
   <header>
-    <h1>Shrek's Character</h1>
+    <h1>Characters</h1>
   </header>
   <nav class="nav">
       <ul>
@@ -24,16 +24,105 @@
       </ul>
     </nav>
   <main class="content">
-    <section class="character">
-      <h2>Shrek: The Reluctant Hero</h2>
-      <p>add a description of Shrek's character to this section</p>
-    </section>
-  </main>
-  <footer>
-    &copy;2025 ada Developers Academy Cohort 24
-  </footer>
-</body>
-</html>
+  <section class="characters-gallery">
+    <!-- SHREK -->
+    <figure class="char-card flip-card">
+      <input type="checkbox" id="flip-shrek" class="flip-toggle">
+      <label class="flip-inner" for="flip-shrek">
+        <div class="flip-face flip-front">
+          <div class="media">
+            <img src="../assets/images/shrek.png" alt="Shrek">
+          </div>
+          <figcaption class="card-caption">Shrek</figcaption>
+        </div>
+        <div class="flip-face flip-back">
+          <p>Big-hearted ogre who values privacy but always shows up for friends.</p>
+        </div>
+      </label>
+    </figure>
 
+    <!-- FIONA -->
+    <figure class="char-card flip-card">
+      <input type="checkbox" id="flip-fiona" class="flip-toggle">
+      <label class="flip-inner" for="flip-fiona">
+        <div class="flip-face flip-front">
+          <div class="media">
+            <img src="../assets/images/fiona.png" alt="Fiona">
+          </div>
+          <figcaption class="card-caption">Fiona</figcaption>
+        </div>
+        <div class="flip-face flip-back">
+          <p>Warrior princess with a secret, brave, witty, and deeply loyal.</p>
+        </div>
+      </label>
+    </figure>
 
+    <!-- DONKEY -->
+    <figure class="char-card flip-card">
+      <input type="checkbox" id="flip-donkey" class="flip-toggle">
+      <label class="flip-inner" for="flip-donkey">
+        <div class="flip-face flip-front">
+          <div class="media">
+            <img src="../assets/images/donkey1.png" alt="Donkey">
+          </div>
+          <figcaption class="card-caption">Donkey</figcaption>
+        </div>
+        <div class="flip-face flip-back">
+          <p>Endlessly chatty, fearless friend whose optimism saves the day.</p>
+        </div>
+      </label>
+    </figure>
 
+    <!-- PUSS IN BOOTS -->
+    <figure class="char-card flip-card">
+      <input type="checkbox" id="flip-puss" class="flip-toggle">
+      <label class="flip-inner" for="flip-puss">
+        <div class="flip-face flip-front">
+          <div class="media">
+            <img src="../assets/images/puss2.png" alt="Puss in Boots">
+          </div>
+          <figcaption class="card-caption">Puss in Boots</figcaption>
+        </div>
+        <div class="flip-face flip-back">
+          <p>Charming swashbuckler: sword, boots, and devastating cute eyes.</p>
+        </div>
+      </label>
+    </figure>
+
+    <!-- LORD FARQUAAD -->
+    <figure class="char-card flip-card">
+      <input type="checkbox" id="flip-farquaad" class="flip-toggle">
+      <label class="flip-inner" for="flip-farquaad">
+        <div class="flip-face flip-front">
+          <div class="media">
+            <img src="../assets/images/lord-farquaad.png" alt="Lord Farquaad">
+          </div>
+          <figcaption class="card-caption">Lord Farquaad</figcaption>
+        </div>
+        <div class="flip-face flip-back">
+          <p>Petty tyrant obsessed with perfection and power over Duloc.</p>
+        </div>
+      </label>
+    </figure>
+
+    <!-- DRAGON -->
+    <figure class="char-card flip-card">
+      <input type="checkbox" id="flip-dragon" class="flip-toggle">
+      <label class="flip-inner" for="flip-dragon">
+        <div class="flip-face flip-front">
+          <div class="media">
+            <img src="../assets/images/dragon.png" alt="Dragon">
+          </div>
+          <figcaption class="card-caption">Dragon</figcaption>
+        </div>
+        <div class="flip-face flip-back">
+          <p>Fire-breathing guardian with a soft spot for Donkey.</p>
+        </div>
+      </label>
+    </figure>
+  </section>
+</main>
+
+<footer>
+  &copy;2025 Ada Developers Academy Cohort 24
+</footer>
