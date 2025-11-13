@@ -34,17 +34,15 @@
     }
 
     ol li::marker {
-        font-family: Shrek, cursive; /* Change to your desired font */
-        font-size: 1.2em; /* Adjust font size as needed */
-        font-weight: bold; /* Make the numbers bold */
-        color: #333; /* Change the color of the numbers */
+        font-family: Shrek, cursive; 
+        font-size: 1.2em; 
+        color: #000000; 
 }
 
 
     li {
         margin-bottom: 10px;
         text-align: center;
-        
     }
 
     h3 {        
@@ -52,9 +50,7 @@
         color: #7a9244;}
 
     p {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: fantasy, sans-serif;
         line-height: 200%;
-        text-align: justify;
-
-
+        text-align: center;
     }
