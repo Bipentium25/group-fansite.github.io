@@ -25,11 +25,11 @@
 }
 
 #sub-title {
-  font-family: fantasy, sans-serif; /* your Shrek font */
-  color: white;                   /* swampy green text */
+  font-family: fantasy, sans-serif; 
+  color: white;                   
   font-size: 24px;
   text-align: center;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* makes text pop */
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5); 
   margin: 20px 0;
 }
 
@@ -38,12 +38,18 @@
 }
 
 #main-title{
-    font-size: 70px;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    font-size: 90px;
+    text-shadow: 3px 3px 5px rgba(100, 12, 90, 0.5);
 }
 #main-title, #sub-title {
   margin: 0;   /* remove all default top/bottom spacing */
 }
-nav{
-    cursor: url('../assets/images/Shrek--cursor--SweezyCursors..cur'), auto;
+html {
+    cursor: url('../assets/images/Shrek - pointer - 48head.png'), auto;
+}
+nav :hover{
+    cursor: url('../assets/images/Shrek - cursor -48hand.png'), pointer;
+}
+nav :active{
+    cursor: url('../assets/images/Shrek - cursor -48hand.png'), pointer;
 }
