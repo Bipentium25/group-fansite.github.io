@@ -1,3 +1,6 @@
+
+@import url('https://fonts.cdnfonts.com/css/ballet');
+
 .header-container {
   display: flex;
   align-items: center;        /* vertical centering */
@@ -35,6 +38,14 @@
 
 #intro_to_shrek{
     font-family: fantasy,sans-serif !important;
+}
+#intro_to_shrek::first-letter {
+    font-family: ballet, sans-serif;
+    font-size: 5rem;    /* make it big */
+    font-weight: bold;
+    float: left;        /* makes the letter drop into the paragraph */
+    line-height: 1;
+    margin-right: 5px;  /* space between big letter and text */
 }
 
 #main-title{
