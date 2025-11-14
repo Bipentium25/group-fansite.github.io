@@ -65,3 +65,13 @@ a:active {
 a:hover {
   color: #d55e00;
 }
+
+html {
+    cursor: url('../assets/images/Shrek - pointer - 48head.png'), auto;
+}
+nav :hover{
+    cursor: url('../assets/images/Shrek - cursor -48hand.png'), pointer;
+}
+nav :active{
+    cursor: url('../assets/images/Shrek - cursor -48hand.png'), pointer;
+}
