@@ -111,3 +111,7 @@
   background: #5ca000;
   transform: scale(2);
 }
+
+html { 
+    cursor: auto;
+}
