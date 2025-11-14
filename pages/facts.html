@@ -10,8 +10,10 @@
 </head>
 <body>
   <header>
-    <h1>Fun Facts </h1>
+    <h1>Fan Facts</h1>
   </header>
+
+
   <div class="content">
       <nav>
         <ul>
@@ -21,37 +23,126 @@
           <li><a href="characters.html">Characters</a></li>
         </ul>
       </nav>
-    <main class="split-main split-words">
-        <section class="left-block">
-            <ol>
-                <li class=facts-block><h3>First Animated Feature Oscar Winner 2002</h3>
-                  <p>Shrek was the very first movie to win the Academy Award for Best Animated Feature, beating Monsters, Inc. and Jimmy Neutron: Boy Genius.</p></li>
-                <li class=facts-block><h3>Chris Farley Was the Original Shrek</h3>
-                  <p>The late comedian Chris Farley recorded most of Shrek's lines before he passed away. Afterward, Mike Myers took over and decided to give Shrek his now-iconic Scottish accent.</p></li>
-                <li class=facts-block><h3>'Shrek' Means 'Fright' in German and Yiddish</h3>
-                  <p>The word Shrek comes from the German Schreck and Yiddish shrek — both meaning “fear” or “terror.”</p></li>
-                <li class=facts-block><h3>All-Star Status</h3>
-                  <p>The movie's opening song, “All Star” by Smash Mouth, became so tied to Shrek that it's now one of the most recognizable movie-song pairings in pop culture.</p></li>
-                <li class=facts-block><h3>'I'm a Believer' Was the Finale Hit</h3>
-                  <p>Smash Mouth also performed a cover of “I'm a Believer” (originally by The Monkees) for the film's joyful ending.</p></li>
-            </ol>
-        </section>
-        <section class="right-block">
-            <!-- Content for the right block -->
-            <ol start="6">
-                <li class=facts-block><h3>Myers Recorded All His Lines Twice</h3>
-                <p>After finishing recording in a regular voice, Myers asked to redo every line in a Scottish accent — at his own expense. DreamWorks loved it so much they agreed.</p></li>
-                <li class=facts-block><h3>The Animators Hid Easter Eggs Everywhere</h3>
-                <p>You can spot nods to other DreamWorks projects — for instance, Lord Farquaad’s castle looks suspiciously like Disneyland, a jab at rival Disney.</p></li>
-                <li class=facts-block><h3>Lord Farquaad's Name Is a Joke</h3>
-                <p>Many believe “Farquaad” was chosen because it sounds like a censored version of a certain swear word — fitting for a villain modeled after a self-absorbed perfectionist.</p></li>
-                <li class=facts-block><h3>Mike Myers's love speech was real</h3>
-                <p>At the end of the first movie, when Shrek tells Fiona he loves her, Mike Myers actually recorded the lines opposite his real life wife, in order to make them sound authentic. So when he says he loves her, he really means it! Aww, what a romantic!</p></li>
-                <li class=facts-block><h3>Shrek was meant to look very different</h3>
-                <p>Shrek's original design was much more monstrous and less human-like. The animators wanted to make him more relatable and endearing, which is why they gave him a softer, more rounded appearance.</p></li>
-            </ol>
-        </section>
-    </main>      
+      <main class="facts-main">
+      <section class="book-facts">
+      <h2 id="facts-heading" class="visually-hidden">Shrek fan facts</h2>
+
+      <!-- Page selectors (hidden radios) -->
+      <input type="radio" name="fact-page" id="fact-page-1" checked>
+      <input type="radio" name="fact-page" id="fact-page-2">
+      <input type="radio" name="fact-page" id="fact-page-3">
+      <input type="radio" name="fact-page" id="fact-page-4">
+      <input type="radio" name="fact-page" id="fact-page-5">
+      <input type="radio" name="fact-page" id="fact-page-6">
+      <input type="radio" name="fact-page" id="fact-page-7">
+      <input type="radio" name="fact-page" id="fact-page-8">
+      <input type="radio" name="fact-page" id="fact-page-9">
+      <input type="radio" name="fact-page" id="fact-page-10">
+
+    <div class="book" aria-live="polite">
+
+      <img src="../assets/images/shrek-kids-book.png"
+           class="book-image"
+           alt="An open storybook used to display Shrek fun facts.">
+
+      <div class="book-page-content">
+        <!-- Fact 1 -->
+        <article class="fact-page fact-page-1" id="fact-1">
+          <h3>First Animated Feature Oscar Winner 2002</h3>
+          <p>Shrek was the very first movie to win the Academy Award for Best Animated Feature, beating Monsters, Inc. and Jimmy Neutron: Boy Genius.</p>
+        </article>
+
+        <!-- Fact 2 -->
+        <article class="fact-page fact-page-2" id="fact-2">
+          <h3>Chris Farley Was the Original Shrek</h3>
+          <p>The late comedian Chris Farley recorded most of Shrek's lines before he passed away. Afterward, Mike Myers took over and decided to give Shrek his now-iconic Scottish accent.</p>
+        </article>
+
+        <!-- Fact 3 -->
+        <article class="fact-page fact-page-3" id="fact-3">
+          <h3>'Shrek' Means 'Fright' in German and Yiddish</h3>
+          <p>The word Shrek comes from the German Schreck and Yiddish shrek — both meaning “fear” or “terror.”</p>
+        </article>
+
+        <!-- Fact 4 -->
+        <article class="fact-page fact-page-4" id="fact-4">
+          <h3>All-Star Status</h3>
+          <p>The movie's opening song, “All Star” by Smash Mouth, became so tied to Shrek that it's now one of the most recognizable movie-song pairings in pop culture.</p>
+        </article>
+
+        <!-- Fact 5 -->
+        <article class="fact-page fact-page-5" id="fact-5">
+          <h3>'I'm a Believer' Was the Finale Hit</h3>
+          <p>Smash Mouth also performed a cover of “I'm a Believer” (originally by The Monkees) for the film's joyful ending.</p>
+        </article>
+
+        <!-- Fact 6 -->
+        <article class="fact-page fact-page-6" id="fact-6">
+          <h3>Myers Recorded All His Lines Twice</h3>
+          <p>After finishing recording in a regular voice, Myers asked to redo every line in a Scottish accent — at his own expense. DreamWorks loved it so much they agreed.</p>
+        </article>
+
+        <!-- Fact 7 -->
+        <article class="fact-page fact-page-7" id="fact-7">
+          <h3>The Animators Hid Easter Eggs Everywhere</h3>
+          <p>You can spot nods to other DreamWorks projects — for instance, Lord Farquaad’s castle looks suspiciously like Disneyland, a jab at rival Disney.</p>
+        </article>
+
+        <!-- Fact 8 -->
+        <article class="fact-page fact-page-8" id="fact-8">
+          <h3>Lord Farquaad's Name Is a Joke</h3>
+          <p>Many believe “Farquaad” was chosen because it sounds like a censored version of a certain swear word — fitting for a villain modeled after a self-absorbed perfectionist.</p>
+        </article>
+
+        <!-- Fact 9 -->
+        <article class="fact-page fact-page-9" id="fact-9">
+          <h3>Mike Myers's love speech was real</h3>
+          <p>At the end of the first movie, when Shrek tells Fiona he loves her, Mike Myers actually recorded the lines opposite his real life wife, in order to make them sound authentic. So when he says he loves her, he really means it! Aww, what a romantic!</p>
+        </article>
+
+        <!-- Fact 10 -->
+        <article class="fact-page fact-page-10" id="fact-10">
+          <h3>Shrek was meant to look very different</h3>
+          <p>Shrek's original design was much more monstrous and less human-like. The animators wanted to make him more relatable and endearing, which is why they gave him a softer, more rounded appearance.</p>
+        </article>
+      </div>
+    </div>
+
+    <!-- Pagination dots -->
+    <div class="book-pagination" role="tablist" aria-label="Choose a Shrek fun fact">
+      <label for="fact-page-1"
+             aria-controls="fact-1"
+             aria-label="Fact 1"></label>
+      <label for="fact-page-2"
+             aria-controls="fact-2"
+             aria-label="Fact 2"></label>
+      <label for="fact-page-3"
+             aria-controls="fact-3"
+             aria-label="Fact 3"></label>
+      <label for="fact-page-4"
+             aria-controls="fact-4"
+             aria-label="Fact 4"></label>
+      <label for="fact-page-5"
+             aria-controls="fact-5"
+             aria-label="Fact 5"></label>
+      <label for="fact-page-6"
+             aria-controls="fact-6"
+             aria-label="Fact 6"></label>
+      <label for="fact-page-7"
+             aria-controls="fact-7"
+             aria-label="Fact 7"></label>
+      <label for="fact-page-8"
+             aria-controls="fact-8"
+             aria-label="Fact 8"></label>
+      <label for="fact-page-9"
+             aria-controls="fact-9"
+             aria-label="Fact 9"></label>
+      <label for="fact-page-10"
+             aria-controls="fact-10"
+             aria-label="Fact 10"></label>
+    </div>
+  </section>
+</main> 
   </div>
   <footer>
     &copy;2025 ada Developers Academy Cohort 24
