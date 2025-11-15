@@ -12,7 +12,7 @@ Talk through each section with your partner. Add notes on what you discussed and
 (I need a stable internet connection, my laptop, and access to our shared GitHub repo and Slack channel for communication.)
 
 # Xin Li
-(insert your answer here)
+I work best when our team has a clear division of responsibilities and we communicate with each other in a timely way.
 
 # Mengqiao Han
 (A shared git repository and slack for communication. )
@@ -28,7 +28,7 @@ Talk through each section with your partner. Add notes on what you discussed and
 I’m comfortable using GitHub for collaboration and Slack/Zoom for communication and quick check-ins.)
 
 # Xin Li
-(insert your answer here)
+First, we communicate to align on tasks and goals. Then, we work individually on our parts, and come back together to review progress. We repeat this cycle until the project is complete.
 
 # Mengqiao Han
 (I prefer that we each work on our part seperately and then come together to share our ideas and help each other to get a uniformed result. )
@@ -45,7 +45,7 @@ I like to take a few minutes to think through a problem before discussing.
  I learn by doing, but I agree with Nadia I also like to read through the problem and think about it before sharing my thoughts. I also like to hear other people's understanding of the problem.
 
 # Xin Li
-(insert your answer here)
+I learn best by first reading and trying things on my own, and then communicating with the team to discuss and solve problems together.
 
 # Mengqiao Han
 (I want to try out everything first and then help each other to solve the problems we each encounter. )
@@ -60,7 +60,7 @@ I prefer straightfoward feedback. Just be honest and direct!
 (I appreciate clear and specific feedback that includes examples or suggestions for improvement. I prefer feedback to be kind but direct, whether written in a PR comment or discussed briefly during meetings.)
 
 # Xin Li
-(insert your answer here)
+I receive feedback best when it’s clear, specific, and constructive.
 
 # Mengqiao Han
 I prefer very direct feedback. 
@@ -75,7 +75,7 @@ I'd love to practice clear comunication!
 (I’d like to keep improving my ability to explain technical ideas clearly in English — to practice using precise programming vocabulary when discussing code or problem-solving.)
 
 # Xin Li
-(insert your answer here)
+I’d like to improve my communication in group settings — especially when there’s a disagreement. I want to get better at discussing different viewpoints and helping the team find the best solution together.
 
 # Mengqiao Han
 (I want to practice on sharing workload. Unlike previous projects where we each need to understand the whole logic, this time with the html we can each work on a separate part. )
@@ -86,7 +86,6 @@ I'd love to practice clear comunication!
 Let’s be flexible with scheduling, keep communication transparent, and support each other’s learning pace.
 
 ## Signatures
-______________ ____
 Mengqiao Han
 Xin Li
 Priscilla Andresen
